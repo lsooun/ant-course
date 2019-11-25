@@ -1,7 +1,7 @@
 export default {
 	plugins:[
 		['umi-plugin-react', {
-
+			antd: true
 		}],
 	],
 	singular: true,
@@ -25,6 +25,10 @@ export default {
 	  	{
 	  		path: '/clock',
 	  		component: './clock',
-	  	}
+	  	},
+	  	{
+	  		path: '/card',
+	  		component: './card',
+	  	},
   	],
 };

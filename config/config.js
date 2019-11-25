@@ -30,5 +30,9 @@ export default {
 	  		path: '/card',
 	  		component: './card',
 	  	},
+	  	{
+	  		path: '/demo',
+	  		component: './demo',
+	  	},
   	],
 };
